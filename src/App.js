@@ -1,27 +1,62 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles/custom.scss';
 
 function App() {
   return (
     <div className="App">
-      <div class="wrapper">
-        <h1>Bubbles Animation</h1>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
-        <div><span className="dot"></span></div>
+      <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
       </div>
+      <div style={{ fontSize:"32px", color:"white"}}>test</div>
     </div>
   );
 }
