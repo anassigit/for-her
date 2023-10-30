@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/for-her/static/css/main.1bcbf180.css",
-    "main.js": "/for-her/static/js/main.c57265c8.js",
+    "main.css": "/for-her/static/css/main.5ebfca90.css",
+    "main.js": "/for-her/static/js/main.ea7cd4fd.js",
     "static/js/787.23a54936.chunk.js": "/for-her/static/js/787.23a54936.chunk.js",
     "static/media/thousand-years.mp3": "/for-her/static/media/thousand-years.854f5d59702c1a0b1607.mp3",
     "static/media/logo.svg": "/for-her/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/for-her/index.html",
-    "main.1bcbf180.css.map": "/for-her/static/css/main.1bcbf180.css.map",
-    "main.c57265c8.js.map": "/for-her/static/js/main.c57265c8.js.map",
+    "main.5ebfca90.css.map": "/for-her/static/css/main.5ebfca90.css.map",
+    "main.ea7cd4fd.js.map": "/for-her/static/js/main.ea7cd4fd.js.map",
     "787.23a54936.chunk.js.map": "/for-her/static/js/787.23a54936.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bcbf180.css",
-    "static/js/main.c57265c8.js"
+    "static/css/main.5ebfca90.css",
+    "static/js/main.ea7cd4fd.js"
   ]
 }
