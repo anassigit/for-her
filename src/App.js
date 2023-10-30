@@ -2,37 +2,65 @@ import logo from './logo.svg';
 import './styles/custom.scss';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Button } from 'reactstrap';
-import backgroundMusic from './sounds/Christina_Perri_-_A_Thousand_Years_CeeNaija.com_.mp3';
-
+import backgroundMusic from '../src/thousand-years.mp3';
 
 function App() {
 
-  const [playButton, setPlayButton] = useState(false)
+  const [playButton, setPlayButton] = useState(false);
   const [buttonVisible, setButtonVisible] = useState(0);
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    // Pause the audio when the component mounts
+    if (audioRef.current) {
+      audioRef.current.pause();
+    }
+  }, []);
 
   useEffect(() => {
     if (playButton) {
       const interval = setInterval(() => {
-        setButtonVisible(prevButtonVisible => {
+        setButtonVisible((prevButtonVisible) => {
           if (prevButtonVisible < 4) {
             return prevButtonVisible + 1;
           } else {
             clearInterval(interval);
             return prevButtonVisible;
           }
-        })
+        });
       }, 4000);
+    }
+  }, [playButton]);
+
+  // Handle auto-play restrictions and user interaction
+  useEffect(() => {
+    const playAudio = () => {
+      if (audioRef.current) {
+        const promise = audioRef.current.play();
+
+        if (promise !== undefined) {
+          promise
+            .then(() => {
+              // Auto-play started successfully
+            })
+            .catch((error) => {
+              console.error('Auto-play failed:', error);
+              // Handle the error here or provide a play button
+            });
+        }
+      }
+    };
+
+    if (playButton) {
+      playAudio();
     }
   }, [playButton]);
 
   return (
     <div className="App">
-      <audio autoPlay loop hidden>
-        <source src={backgroundMusic} type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
+      <audio ref={audioRef} autoPlay={true} src={backgroundMusic} />
       {
         playButton === true ?
           (
@@ -83,7 +111,7 @@ function App() {
             style={{ zIndex: 2 }}
             onClick={() => setPlayButton(true)}
           >
-            Klik Akuuu!
+            Udah siap?
           </button>
       }
       <div className="stars" style={{ zIndex: -999 }}>
