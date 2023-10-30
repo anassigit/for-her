@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/for-her/static/css/main.8d54a693.css",
-    "main.js": "/for-her/static/js/main.247eb457.js",
+    "main.css": "/for-her/static/css/main.705819ff.css",
+    "main.js": "/for-her/static/js/main.70fc11fb.js",
     "static/js/787.23a54936.chunk.js": "/for-her/static/js/787.23a54936.chunk.js",
+    "static/media/Christina_Perri_-_A_Thousand_Years_CeeNaija.com_.mp3": "/for-her/static/media/Christina_Perri_-_A_Thousand_Years_CeeNaija.com_.854f5d59702c1a0b1607.mp3",
     "static/media/logo.svg": "/for-her/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/for-her/index.html",
-    "main.8d54a693.css.map": "/for-her/static/css/main.8d54a693.css.map",
-    "main.247eb457.js.map": "/for-her/static/js/main.247eb457.js.map",
+    "main.705819ff.css.map": "/for-her/static/css/main.705819ff.css.map",
+    "main.70fc11fb.js.map": "/for-her/static/js/main.70fc11fb.js.map",
     "787.23a54936.chunk.js.map": "/for-her/static/js/787.23a54936.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d54a693.css",
-    "static/js/main.247eb457.js"
+    "static/css/main.705819ff.css",
+    "static/js/main.70fc11fb.js"
   ]
 }
