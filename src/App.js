@@ -107,11 +107,11 @@ function App() {
           )
           :
           <button
-            className='btn btn-light fade-in-btn'
-            style={{ zIndex: 2 }}
+            className='fade-in-btn text-light'
+            style={{ zIndex: 2, fontSize:'10vh', padding:"3vh 3vw 3vh 3vw" }}
             onClick={() => setPlayButton(true)}
           >
-            Udah siap?
+            Click Here
           </button>
       }
       <div className="stars" style={{ zIndex: -999 }}>
