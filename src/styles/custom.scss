@@ -125,6 +125,13 @@ body {
   animation: fadeInOut-1 4s ease 0s 1 normal forwards;
 }
 
+#last-text {
+  width: 70vw;
+  animation:
+    last-text 1.5s ease-in-out 0s 1 normal forwards,
+    last-text-out 1.5s ease-in-out 2s 1 reverse forwards;
+}
+
 @keyframes fadeInOut-1 {
   0% {
     opacity: 0;
@@ -144,6 +151,30 @@ body {
   100% {
     opacity: 0;
     transform: translateX(50px);
+  }
+}
+
+@keyframes last-text {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes last-text-out {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
@@ -169,29 +200,52 @@ body {
   }
 }
 
-
 .group-pics-1 {
-  animation: first-pic 1.5s ease-in-out 0s 1 normal forwards;
+  border-radius: 18px;
+  animation:
+    first-pic 1.5s ease-in-out 0s 1 normal forwards,
+    first-pic-leave 1.5s ease-in-out 4s 1 normal forwards;
 }
+
 .group-pics-2 {
+  border-radius: 18px;
   opacity: 0;
   transform: translateY(50px);
-  animation: first-pic 1.5s ease-in-out 2s 1 normal forwards;
+  animation:
+    first-pic 1.5s ease-in-out 2s 1 normal forwards,
+    first-pic-leave 1.5s ease-in-out 6s 1 normal forwards;
+
 }
+
 .group-pics-3 {
+  border-radius: 18px;
   opacity: 0;
   transform: translateY(50px);
-  animation: first-pic 1.5s ease-in-out 4s 1 normal forwards;
+  animation:
+    first-pic 1.5s ease-in-out 4s 1 normal forwards,
+    first-pic-leave 1.5s ease-in-out 8s 1 normal forwards;
 }
 
 @keyframes first-pic {
-	0% {
-		opacity: 0;
-		transform: translateY(50px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  100% {
+    opacity: 0.75;
+    transform: translateY(0);
+  }
+}
+
+@keyframes first-pic-leave {
+  0% {
+    opacity: 0.75;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
 }
