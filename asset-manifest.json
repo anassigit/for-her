@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/for-her/static/css/main.40e5b387.css",
+    "main.css": "/for-her/static/css/main.949bd866.css",
     "main.js": "/for-her/static/js/main.a49dbea1.js",
     "static/js/787.23a54936.chunk.js": "/for-her/static/js/787.23a54936.chunk.js",
     "static/media/thousand-years.mp3": "/for-her/static/media/thousand-years.854f5d59702c1a0b1607.mp3",
@@ -17,12 +17,12 @@
     "static/media/Berkat Kamu.svg": "/for-her/static/media/Berkat Kamu.389d8f94f7dc5c656e43acd8b385a0dc.svg",
     "static/media/logo.svg": "/for-her/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/for-her/index.html",
-    "main.40e5b387.css.map": "/for-her/static/css/main.40e5b387.css.map",
+    "main.949bd866.css.map": "/for-her/static/css/main.949bd866.css.map",
     "main.a49dbea1.js.map": "/for-her/static/js/main.a49dbea1.js.map",
     "787.23a54936.chunk.js.map": "/for-her/static/js/787.23a54936.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40e5b387.css",
+    "static/css/main.949bd866.css",
     "static/js/main.a49dbea1.js"
   ]
 }
