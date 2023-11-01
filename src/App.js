@@ -1,53 +1,47 @@
-import logo from './logo.svg';
-import './styles/custom.scss';
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useRef, useState } from 'react';
-import { Button } from 'reactstrap';
 import backgroundMusic from '../src/thousand-years.mp3';
-import satu from './Words For Her/Halo Sayangku.svg'
-import dua from './Words For Her/Terima Kasih Ya....svg'
-import tiga from './Words For Her/Berkat Kamu.svg'
-import empat from './Words For Her/Aku Jadi Jauh Lebih Baik.svg'
-import lima from './Words For Her/Dari Versi Aku Sebelumnya.svg'
-import enam from './Words For Her/Kamu Mungkin.svg'
-import tujuh from './Words For Her/Benci Sama Aku.svg'
-import delapan from './Words For Her/Sering Marah Sama Aku.svg'
-import sembilan from './Words For Her/Tapi Perlu Diinget.svg'
-import sepuluh from './Words For Her/Aku Sangat Sayang Sama Kamu.svg'
-import sebelas from './Words For Her/I Present This To You.svg'
-import duabelas from './Words For Her/For Ranti.svg'
+import './App.css';
+import empat from './Words For Her/Aku Jadi Jauh Lebih Baik.svg';
+import sepuluh from './Words For Her/Aku Sangat Sayang Sama Kamu.svg';
+import tujuh from './Words For Her/Benci Sama Aku.svg';
+import tiga from './Words For Her/Berkat Kamu.svg';
+import lima from './Words For Her/Dari Versi Aku Sebelumnya.svg';
+import duabelas from './Words For Her/For Ranti.svg';
+import satu from './Words For Her/Halo Sayangku.svg';
+import sebelas from './Words For Her/I Present This To You.svg';
+import enam from './Words For Her/Kamu Mungkin.svg';
+import delapan from './Words For Her/Sering Marah Sama Aku.svg';
+import sembilan from './Words For Her/Tapi Perlu Diinget.svg';
+import dua from './Words For Her/Terima Kasih Ya....svg';
+import './styles/custom.scss';
 
-import firstFstGroup from './pics/group1-1.jpg'
-import firstSecGroup from './pics/group1-2.jpg'
-import firstThdGroup from './pics/group1-3.jpg'
+import firstFstGroup from './pics/group1-1.jpg';
+import firstSecGroup from './pics/group1-2.jpg';
+import firstThdGroup from './pics/group1-3.jpg';
 
-import secondFstGroup from './pics/group2-1.jpg'
-import secondSecGroup from './pics/group2-2.jpg'
+import secondFstGroup from './pics/group2-1.jpg';
+import secondSecGroup from './pics/group2-2.jpg';
 
-import thirdFstGroup from './pics/group3-1.jpg'
-import thirdSecGroup from './pics/group3-2.jpg'
-import thirdThdGroup from './pics/group3-3.jpg'
+import thirdFstGroup from './pics/group3-1.jpg';
+import thirdSecGroup from './pics/group3-2.jpg';
 
-import fourthFstGroup from './pics/group4-1.jpg'
-import fourthSecGroup from './pics/group4-2.jpg'
-import fourthThdGroup from './pics/group4-3.jpg'
+import fourthFstGroup from './pics/group4-1.jpg';
+import fourthSecGroup from './pics/group4-2.jpg';
 
-import fifthFstGroup from './pics/group5-1.jpg'
-import fifthSecGroup from './pics/group5-2.jpg'
-import fifthThdGroup from './pics/group5-3.jpg'
+import fifthFstGroup from './pics/group5-1.jpg';
+import fifthThdGroup from './pics/group5-3.jpg';
 
-import sixthFstGroup from './pics/group6-1.jpg'
-import sixthSecGroup from './pics/group6-2.jpg'
-import sixthThdGroup from './pics/group6-4.jpg'
+import sixthFstGroup from './pics/group6-1.jpg';
+import sixthSecGroup from './pics/group6-2.jpg';
 
-import specialFstGroup from './pics/group-special2.jpg'
-import specialSecGroup from './pics/group-special4.jpg'
-import specialThdGroup from './pics/group-special3.jpg'
-import specialFthGroup from './pics/group-special-tidur2.jpg'
+import specialFthGroup from './pics/group-special-tidur2.jpg';
+import specialFstGroup from './pics/group-special2.jpg';
+import specialThdGroup from './pics/group-special3.jpg';
+import specialSecGroup from './pics/group-special4.jpg';
 
-import beforeLast from './Words For Her/Liat Semesra Apa Kita.svg'
-import lastLast from './Words For Her/I Love You Ranti.svg'
+import lastLast from './Words For Her/I Love You Ranti.svg';
+import beforeLast from './Words For Her/Liat Semesra Apa Kita.svg';
 
 function App() {
 
@@ -80,7 +74,6 @@ function App() {
 
   useEffect(() => {
     if (buttonVisible > 11) {
-      const delay = picsStart === 2 ? 8000 : 9000; // Adjust the delay based on picStart value
       const interval = setInterval(() => {
         setPicStart((prevPicStart) => {
           if (prevPicStart < 12) {
@@ -90,7 +83,7 @@ function App() {
             return prevPicStart;
           }
         });
-      }, delay);
+      }, 8000);
     }
   }, [buttonVisible]);
 

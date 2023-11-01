@@ -128,8 +128,8 @@ body {
 #last-text {
   width: 70vw;
   animation:
-    last-text 1.5s ease-in-out 0s 1 normal forwards,
-    last-text-out 1.5s ease-in-out 2s 1 reverse forwards;
+    last-text 3.5s ease-in-out 0s 1 normal forwards,
+    last-text-out 1.5s ease-in-out 5s 1 reverse forwards;
 }
 
 @keyframes fadeInOut-1 {
