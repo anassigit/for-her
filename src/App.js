@@ -16,11 +16,16 @@ import delapan from './Words For Her/Sering Marah Sama Aku.svg'
 import sembilan from './Words For Her/Tapi Perlu Diinget.svg'
 import sepuluh from './Words For Her/Aku Sangat Sayang Sama Kamu.svg'
 import sebelas from './Words For Her/I Present This To You.svg'
+import duabelas from './Words For Her/For Ranti.svg'
+
+import firstOneGroup from './pics/group1-1.jpg'
+import firstSecGroup from './pics/group1-2.jpg'
 
 function App() {
 
   const [playButton, setPlayButton] = useState(false);
   const [buttonVisible, setButtonVisible] = useState(0);
+  const [picsStart, setPicStart] = useState(0);
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -45,20 +50,16 @@ function App() {
     }
   }, [playButton]);
 
-  // Handle auto-play restrictions and user interaction
   useEffect(() => {
     const playAudio = () => {
       if (audioRef.current) {
         const promise = audioRef.current.play();
-
         if (promise !== undefined) {
           promise
             .then(() => {
-              // Auto-play started successfully
             })
             .catch((error) => {
               console.error('Auto-play failed:', error);
-              // Handle the error here or provide a play button
             });
         }
       }
@@ -76,105 +77,119 @@ function App() {
         playButton === true ?
           (
             <div>
-              <div>
-                {buttonVisible === 0 && (
-                  <img
-                    id='text-forher'
-                    src={satu}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 1 && (
-                  <img
-                    id='text-forher'
-                    src={dua}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 2 && (
-                  <img
-                    id='text-forher'
-                    src={tiga}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 3 && (
-                  <img
-                    id='text-forher'
-                    src={empat}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 4 && (
-                  <img
-                    id='text-forher'
-                    src={lima}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 5 && (
-                  <img
-                    id='text-forher'
-                    src={enam}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 6 && (
-                  <img
-                    id='text-forher'
-                    src={tujuh}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 7 && (
-                  <img
-                    id='text-forher'
-                    src={delapan}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 8 && (
-                  <img
-                    id='text-forher'
-                    src={sembilan}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 9 && (
-                  <img
-                    id='text-forher'
-                    src={sepuluh}
-                  />
-                )}
-              </div>
-              <div>
-                {buttonVisible === 10 && (
-                  <img
-                    id='text-forher'
-                    src={sebelas}
-                  />
-                )}
-              </div>
+              {buttonVisible === 0 && (
+                <img
+                  id='text-forher'
+                  src={satu}
+                />
+              )}
+              {buttonVisible === 1 && (
+                <img
+                  id='text-forher'
+                  src={dua}
+                />
+              )}
+              {buttonVisible === 2 && (
+                <img
+                  id='text-forher'
+                  src={tiga}
+                />
+              )}
+              {buttonVisible === 3 && (
+                <img
+                  id='text-forher'
+                  src={empat}
+                />
+              )}
+              {buttonVisible === 4 && (
+                <img
+                  id='text-forher'
+                  src={lima}
+                />
+              )}
+              {buttonVisible === 5 && (
+                <img
+                  id='text-forher'
+                  src={enam}
+                />
+              )}
+              {buttonVisible === 6 && (
+                <img
+                  id='text-forher'
+                  src={tujuh}
+                />
+              )}
+              {buttonVisible === 7 && (
+                <img
+                  id='text-forher'
+                  src={delapan}
+                />
+              )}
+              {buttonVisible === 8 && (
+                <img
+                  id='text-forher'
+                  src={sembilan}
+                />
+              )}
+              {buttonVisible === 9 && (
+                <img
+                  id='text-forher'
+                  src={sepuluh}
+                />
+              )}
+              {buttonVisible === 10 && (
+                <img
+                  id='text-forher'
+                  src={sebelas}
+                />
+              )}
+              {buttonVisible === 11 && (
+                <img
+                  id='text-forher'
+                  src={duabelas}
+                />
+              )}
             </div>
 
           )
           :
-          <button
-            className='fade-in-btn text-light'
-            style={{ zIndex: 2, fontSize: '10vh', padding: "3vh 3vw 3vh 3vw" }}
-            onClick={() => setPlayButton(true)}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              gap: "3vw",
+            }}
           >
-            Click Here
-          </button>
+            <img
+              className='group-pics-1'
+              style={{
+                width: "15vw",
+              }}
+              src={firstOneGroup}
+            />
+            <img
+              className='group-pics-2'
+              style={{
+                width: "15vw",
+              }}
+              src={firstSecGroup}
+            />
+            <img
+              className='group-pics-3'
+              style={{
+                width: "15vw",
+              }}
+              src={firstSecGroup}
+            />
+          </div>
+        // <button
+        //   className='fade-in-btn text-light'
+        //   style={{ zIndex: 2, fontSize: '4vw', padding: "3vh 3vw 3vh 3vw" }}
+        //   onClick={() => setPlayButton(true)}
+        // >
+        //   click ini kalo udah nyalain suaranya :)
+        // </button>
       }
       <div className="stars" style={{ zIndex: -999 }}>
         <div className="star"></div>

@@ -121,6 +121,7 @@ body {
 }
 
 #text-forher {
+  width: 70vw;
   animation: fadeInOut-1 4s ease 0s 1 normal forwards;
 }
 
@@ -166,4 +167,31 @@ body {
   to {
     opacity: 1;
   }
+}
+
+
+.group-pics-1 {
+  animation: first-pic 1.5s ease-in-out 0s 1 normal forwards;
+}
+.group-pics-2 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: first-pic 1.5s ease-in-out 2s 1 normal forwards;
+}
+.group-pics-3 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: first-pic 1.5s ease-in-out 4s 1 normal forwards;
+}
+
+@keyframes first-pic {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
