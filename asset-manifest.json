@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/for-her/static/css/main.21e239cb.css",
-    "main.js": "/for-her/static/js/main.18d3ecaf.js",
+    "main.css": "/for-her/static/css/main.40e5b387.css",
+    "main.js": "/for-her/static/js/main.a49dbea1.js",
     "static/js/787.23a54936.chunk.js": "/for-her/static/js/787.23a54936.chunk.js",
     "static/media/thousand-years.mp3": "/for-her/static/media/thousand-years.854f5d59702c1a0b1607.mp3",
+    "static/media/Aku Sangat Sayang Sama Kamu.svg": "/for-her/static/media/Aku Sangat Sayang Sama Kamu.e2c952190252e54a48c14195fd369995.svg",
+    "static/media/Dari Versi Aku Sebelumnya.svg": "/for-her/static/media/Dari Versi Aku Sebelumnya.b035e20cc2a7a4afbecccb56aea9f9fc.svg",
+    "static/media/Aku Jadi Jauh Lebih Baik.svg": "/for-her/static/media/Aku Jadi Jauh Lebih Baik.e3df397677a55f0a43bc3e7d250e2fd3.svg",
+    "static/media/Sering Marah Sama Aku.svg": "/for-her/static/media/Sering Marah Sama Aku.f58bc59c3a23bc9bbbe45149227ffd61.svg",
+    "static/media/I Present This To You.svg": "/for-her/static/media/I Present This To You.6c6652916cd089a6ccd1d847c91da3d1.svg",
+    "static/media/Tapi Perlu Diinget.svg": "/for-her/static/media/Tapi Perlu Diinget.522707e8d3bdd7c435415a9b8e6b3d1f.svg",
+    "static/media/Terima Kasih Ya....svg": "/for-her/static/media/Terima Kasih Ya....9e5000ce876cc0eb74bb86a60dfe3f95.svg",
+    "static/media/Halo Sayangku.svg": "/for-her/static/media/Halo Sayangku.aee11edfe38437b99fd5a620e8bb1833.svg",
+    "static/media/Kamu Mungkin.svg": "/for-her/static/media/Kamu Mungkin.1d88ebb5586d022a47c77ceedd6dfd37.svg",
+    "static/media/Benci Sama Aku.svg": "/for-her/static/media/Benci Sama Aku.a6eda2f6c239958f1d48c2c1f6288e57.svg",
+    "static/media/Berkat Kamu.svg": "/for-her/static/media/Berkat Kamu.389d8f94f7dc5c656e43acd8b385a0dc.svg",
     "static/media/logo.svg": "/for-her/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/for-her/index.html",
-    "main.21e239cb.css.map": "/for-her/static/css/main.21e239cb.css.map",
-    "main.18d3ecaf.js.map": "/for-her/static/js/main.18d3ecaf.js.map",
+    "main.40e5b387.css.map": "/for-her/static/css/main.40e5b387.css.map",
+    "main.a49dbea1.js.map": "/for-her/static/js/main.a49dbea1.js.map",
     "787.23a54936.chunk.js.map": "/for-her/static/js/787.23a54936.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21e239cb.css",
-    "static/js/main.18d3ecaf.js"
+    "static/css/main.40e5b387.css",
+    "static/js/main.a49dbea1.js"
   ]
 }
