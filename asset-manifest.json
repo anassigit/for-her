@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/for-her/static/css/main.9e4bb525.css",
-    "main.js": "/for-her/static/js/main.4215f956.js",
+    "main.css": "/for-her/static/css/main.a163747d.css",
+    "main.js": "/for-her/static/js/main.9ea56bd9.js",
     "static/js/787.23a54936.chunk.js": "/for-her/static/js/787.23a54936.chunk.js",
     "static/media/thousand-years.mp3": "/for-her/static/media/thousand-years.854f5d59702c1a0b1607.mp3",
     "static/media/group1-1.jpg": "/for-her/static/media/group1-1.1a84465ffaf8d82a9984.jpg",
@@ -36,12 +36,12 @@
     "static/media/group3-2.jpg": "/for-her/static/media/group3-2.dc7525c884e78008fa55.jpg",
     "static/media/Berkat Kamu.svg": "/for-her/static/media/Berkat Kamu.389d8f94f7dc5c656e43acd8b385a0dc.svg",
     "index.html": "/for-her/index.html",
-    "main.9e4bb525.css.map": "/for-her/static/css/main.9e4bb525.css.map",
-    "main.4215f956.js.map": "/for-her/static/js/main.4215f956.js.map",
+    "main.a163747d.css.map": "/for-her/static/css/main.a163747d.css.map",
+    "main.9ea56bd9.js.map": "/for-her/static/js/main.9ea56bd9.js.map",
     "787.23a54936.chunk.js.map": "/for-her/static/js/787.23a54936.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e4bb525.css",
-    "static/js/main.4215f956.js"
+    "static/css/main.a163747d.css",
+    "static/js/main.9ea56bd9.js"
   ]
 }
