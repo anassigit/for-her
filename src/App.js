@@ -16,9 +16,9 @@ import sembilan from './Words For Her/Tapi Perlu Diinget.svg';
 import dua from './Words For Her/Terima Kasih Ya....svg';
 import './styles/custom.scss';
 
-import firstFstGroup from './pics/group 1-1.jpeg';
-import firstSecGroup from './pics/group1-2.jpeg';
-import firstThdGroup from './pics/group1-3.jpeg';
+import firstFstGroup from './pics/group1-1.jpg';
+import firstSecGroup from './pics/group1-2.jpg';
+import firstThdGroup from './pics/group1-3.jpg';
 
 import secondFstGroup from './pics/group2-1.jpg';
 import secondSecGroup from './pics/group2-2.jpg';
