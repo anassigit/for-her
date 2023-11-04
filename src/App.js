@@ -204,21 +204,21 @@ function App() {
                     <img
                       className='group-pics-1'
                       style={{
-                        height: "40vh"
+                        height: "30vh"
                       }}
                       src={firstFstGroup}
                     />
                     <img
                       className='group-pics-2'
                       style={{
-                        height: "40vh"
+                        height: "30vh"
                       }}
                       src={firstSecGroup}
                     />
                     <img
                       className='group-pics-3'
                       style={{
-                        height: "40vh"
+                        height: "30vh"
                       }}
                       src={firstThdGroup}
                     />
@@ -240,14 +240,14 @@ function App() {
                     <img
                       className='group-pics-1'
                       style={{
-                        height: "40vh"
+                        height: "35vh"
                       }}
                       src={secondFstGroup}
                     />
                     <img
                       className='group-pics-2'
                       style={{
-                        height: "40vh"
+                        height: "35vh"
                       }}
                       src={secondSecGroup}
                     />
