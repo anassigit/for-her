@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/for-her/static/css/main.043b91ae.css",
-    "main.js": "/for-her/static/js/main.9df52188.js",
+    "main.css": "/for-her/static/css/main.9e4bb525.css",
+    "main.js": "/for-her/static/js/main.4215f956.js",
     "static/js/787.23a54936.chunk.js": "/for-her/static/js/787.23a54936.chunk.js",
     "static/media/thousand-years.mp3": "/for-her/static/media/thousand-years.854f5d59702c1a0b1607.mp3",
-    "static/media/group 1-1.jpeg": "/for-her/static/media/group 1-1.1a84465ffaf8d82a9984.jpeg",
-    "static/media/group1-2.jpeg": "/for-her/static/media/group1-2.a846a4555f62f3b15407.jpeg",
+    "static/media/group1-1.jpg": "/for-her/static/media/group1-1.1a84465ffaf8d82a9984.jpg",
+    "static/media/group1-2.jpg": "/for-her/static/media/group1-2.a846a4555f62f3b15407.jpg",
     "static/media/group-special2.jpg": "/for-her/static/media/group-special2.be61290c915add7dec7b.jpg",
-    "static/media/group1-3.jpeg": "/for-her/static/media/group1-3.36f1177596a744793770.jpeg",
+    "static/media/group1-3.jpg": "/for-her/static/media/group1-3.36f1177596a744793770.jpg",
     "static/media/group3-1.jpg": "/for-her/static/media/group3-1.83328e59cdeff656c83e.jpg",
     "static/media/group6-2.jpg": "/for-her/static/media/group6-2.1752af4e32d32b10cce4.jpg",
     "static/media/Aku Sangat Sayang Sama Kamu.svg": "/for-her/static/media/Aku Sangat Sayang Sama Kamu.e2c952190252e54a48c14195fd369995.svg",
@@ -36,12 +36,12 @@
     "static/media/group3-2.jpg": "/for-her/static/media/group3-2.dc7525c884e78008fa55.jpg",
     "static/media/Berkat Kamu.svg": "/for-her/static/media/Berkat Kamu.389d8f94f7dc5c656e43acd8b385a0dc.svg",
     "index.html": "/for-her/index.html",
-    "main.043b91ae.css.map": "/for-her/static/css/main.043b91ae.css.map",
-    "main.9df52188.js.map": "/for-her/static/js/main.9df52188.js.map",
+    "main.9e4bb525.css.map": "/for-her/static/css/main.9e4bb525.css.map",
+    "main.4215f956.js.map": "/for-her/static/js/main.4215f956.js.map",
     "787.23a54936.chunk.js.map": "/for-her/static/js/787.23a54936.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.043b91ae.css",
-    "static/js/main.9df52188.js"
+    "static/css/main.9e4bb525.css",
+    "static/js/main.4215f956.js"
   ]
 }
