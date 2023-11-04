@@ -16,9 +16,9 @@ import sembilan from './Words For Her/Tapi Perlu Diinget.svg';
 import dua from './Words For Her/Terima Kasih Ya....svg';
 import './styles/custom.scss';
 
-import firstFstGroup from './pics/group1-1.jpg';
-import firstSecGroup from './pics/group1-2.jpg';
-import firstThdGroup from './pics/group1-3.jpg';
+import firstFstGroup from './pics/group 1-1.jpeg';
+import firstSecGroup from './pics/group1-2.jpeg';
+import firstThdGroup from './pics/group1-3.jpeg';
 
 import secondFstGroup from './pics/group2-1.jpg';
 import secondSecGroup from './pics/group2-2.jpg';
@@ -367,72 +367,6 @@ function App() {
                         height: "40vh"
                       }}
                       src={sixthSecGroup}
-                    />
-                  </div>
-                )
-              }
-              {
-                buttonVisible > 11 && picsStart === 6 && (
-                  <img
-                    id='last-text'
-                    src={beforeLast}
-                  />
-                )
-              }
-              {
-                buttonVisible > 11 && picsStart === 7 && (
-                  <div
-                    id='photo-container one'
-                    style={{
-                      display: "flex",
-                      flexDirection: "row",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "3vw",
-                    }}
-                  >
-                    <img
-                      className='group-pics-1'
-                      style={{
-                        height: "40vh"
-                      }}
-                      src={specialFstGroup}
-                    />
-                    <img
-                      className='group-pics-2'
-                      style={{
-                        height: "40vh"
-                      }}
-                      src={specialSecGroup}
-                    />
-                  </div>
-                )
-              }
-              {
-                buttonVisible > 11 && picsStart === 8 && (
-                  <div
-                    id='photo-container one'
-                    style={{
-                      display: "flex",
-                      flexDirection: "row",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "3vw",
-                    }}
-                  >
-                    <img
-                      className='group-pics-1'
-                      style={{
-                        width: "40vh"
-                      }}
-                      src={specialFthGroup}
-                    />
-                    <img
-                      className='group-pics-2'
-                      style={{
-                        height: "40vh"
-                      }}
-                      src={specialThdGroup}
                     />
                   </div>
                 )
